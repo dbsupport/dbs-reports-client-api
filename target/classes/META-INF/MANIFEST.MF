@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: franz
+Build-Jdk: 1.6.0_05
+Created-By: Maven Integration for Eclipse
+
+Name: Application info:
+Environament: dev
+Builder: franz
+ArtifactVersion: 1.0.0-SNAPSHOT
+ArtifactName: dbs-reports-api
+
