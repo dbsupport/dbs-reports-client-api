@@ -15,11 +15,21 @@ public interface PatternManifest {
 	/**
 	 * 
 	 */
+	String getNameTemplate();
+	
+	String getName();
+	
+	String getFactory();
+	
+	String getVersion();
+	
+	/**
+	 * 
+	 */
 	Attributes getPatternAttributes();
 	
 	/**
 	 * 
 	 */
 	String getPatternAttribute(String attribute);
-
 }

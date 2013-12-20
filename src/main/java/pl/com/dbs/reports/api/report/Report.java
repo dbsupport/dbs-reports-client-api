@@ -31,16 +31,17 @@ public interface Report {
 	 * Generated report name.
 	 */
 	String getName();
+	
 	/**
 	 * Connected pattern. 
 	 */
 	Pattern getPattern();
 	
-//	/**
-//	 * Report executor profile.
-//	 */
-//	Profile getCreator();
-
+	/**
+	 * 
+	 */
+	ReportFormat getFormat();
+	
 	/**
 	 * Report's data itself.
 	 */

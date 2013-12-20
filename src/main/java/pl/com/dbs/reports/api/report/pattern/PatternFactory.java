@@ -3,6 +3,9 @@
  */
 package pl.com.dbs.reports.api.report.pattern;
 
+import pl.com.dbs.reports.api.report.ReportFactory;
+
+
 
 
 /**
@@ -21,5 +24,10 @@ public interface PatternFactory {
 	/**
 	 * Produce (and validate) pattern object.
 	 */
-	Pattern produce(PatternFactoryContext context) throws PatternValidationException;
+	Pattern produce(PatternProduceContext context) throws PatternValidationException;
+	
+	/**
+	 * 
+	 */
+	ReportFactory getReportFactory();
 }

@@ -5,7 +5,7 @@ package pl.com.dbs.reports.api.report.pattern;
 
 import java.util.List;
 
-import pl.com.dbs.reports.api.report.ReportType;
+import pl.com.dbs.reports.api.report.ReportFormat;
 
 /**
  * TODO
@@ -16,7 +16,7 @@ import pl.com.dbs.reports.api.report.ReportType;
 public interface PatternTransformate {
 	String getName();
 	
-	ReportType getType();
+	ReportFormat getFormat();
 	
 	byte[] getContent();
 	

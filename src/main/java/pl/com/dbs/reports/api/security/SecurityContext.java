@@ -3,6 +3,9 @@
  */
 package pl.com.dbs.reports.api.security;
 
+import pl.com.dbs.reports.api.support.db.ConnectionContext;
+
+
 /**
  * TODO
  *
@@ -11,6 +14,8 @@ package pl.com.dbs.reports.api.security;
  */
 public interface SecurityContext {
 
+	ConnectionContext getConnectionContext();
+	
 	String getLogin();
 	
 	String getPassword();

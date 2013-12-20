@@ -7,7 +7,7 @@ import org.springframework.core.Ordered;
 
 
 /**
- * TODO
+ * Pattern validator interface.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
  * @coptyright (c) 2013

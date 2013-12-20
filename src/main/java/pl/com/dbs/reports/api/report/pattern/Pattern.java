@@ -43,4 +43,9 @@ public interface Pattern {
 	 * 
 	 */
 	List<? extends PatternTransformate> getTransformates();
+
+	/**
+	 * 
+	 */
+	List<? extends PatternForm> getForms();
 }
