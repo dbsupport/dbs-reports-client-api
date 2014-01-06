@@ -1,7 +1,7 @@
 /**
  * 
  */
-package pl.com.dbs.reports.api.security;
+package pl.com.dbs.reports.api.profile;
 
 
 /**
@@ -10,7 +10,7 @@ package pl.com.dbs.reports.api.security;
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
  * @coptyright (c) 2013
  */
-public interface SecurityAuthority {
+public interface ClientProfileAuthority {
 	String getName();
 	
 	String getMetaData();

@@ -6,7 +6,7 @@ package pl.com.dbs.reports.api.report.pattern;
 import java.util.jar.Attributes;
 
 /**
- * TODO
+ * Report pattern manifest.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
  * @coptyright (c) 2013

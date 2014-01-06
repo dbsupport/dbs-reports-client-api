@@ -3,8 +3,13 @@
  */
 package pl.com.dbs.reports.api.security;
 
+import org.springframework.dao.DataAccessException;
+
+import pl.com.dbs.reports.api.profile.ClientProfile;
+
+
 /**
- * TODO
+ * CLIENT side authentication service.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
  * @coptyright (c) 2013
@@ -12,7 +17,9 @@ package pl.com.dbs.reports.api.security;
 public interface SecurityService {
 
 	/**
-	 * Authenticate user
+	 * Authenticate user.
+	 * If user authenticated returns data.
+	 * Otherwise returns null or throws exceptions.
 	 */
-	SecurityUser authenticate(final SecurityContext context) throws SecurityAuthenticatinException;
+	ClientProfile authenticate(final SecurityContext context) throws SecurityAuthenticatinException, DataAccessException;
 }

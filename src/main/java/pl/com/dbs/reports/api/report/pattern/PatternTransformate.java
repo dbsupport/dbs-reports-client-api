@@ -5,10 +5,8 @@ package pl.com.dbs.reports.api.report.pattern;
 
 import java.util.List;
 
-import pl.com.dbs.reports.api.report.ReportFormat;
-
 /**
- * TODO
+ * Report pattern transformate interface.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
  * @coptyright (c) 2013
@@ -16,7 +14,7 @@ import pl.com.dbs.reports.api.report.ReportFormat;
 public interface PatternTransformate {
 	String getName();
 	
-	ReportFormat getFormat();
+	PatternFormat getFormat();
 	
 	byte[] getContent();
 	
