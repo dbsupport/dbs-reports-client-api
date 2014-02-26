@@ -5,7 +5,7 @@ package pl.com.dbs.reports.api.profile;
 
 
 /**
- * TODO
+ * Client Profile authorities data.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
  * @coptyright (c) 2013

@@ -40,7 +40,7 @@ public interface Report {
 	/**
 	 * 
 	 */
-	ReportFormat getFormat();
+	ReportType getFormat();
 	
 	/**
 	 * Report's data itself.
