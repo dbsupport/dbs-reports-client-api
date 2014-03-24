@@ -13,16 +13,9 @@ import org.springframework.dao.DataAccessException;
  * @coptyright (c) 2013
  */
 public interface SqlExecutor<T> {
-	/**
-	 * Execute sql.
-	 */
-//	List<Map<String, Object>> execute(final String sql) throws DataAccessException;
-//	
-//	List<?> execute(final String sql, final RowMapper<?> mapper) throws DataAccessException;
-//	
-//	List<?> execute(final String sql, final Object[] params, final RowMapper<?> mapper) throws DataAccessException;
+	List<T> query(final SqlExecutorContext<T> context) throws DataAccessException;
 	
-	List<T> execute(final SqlExecutorContext<T> context) throws DataAccessException;
+	List<Map<String, Object>> query(final String sql, final Object[] params) throws DataAccessException;
 	
-	List<Map<String, Object>> execute(final String sql, final Object[] params) throws DataAccessException;
+	void update(final String sql, final Object[] params) throws DataAccessException;
 }

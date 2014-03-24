@@ -12,7 +12,6 @@ import java.util.Date;
  * @coptyright (c) 2014
  */
 public interface ClientActiveDirectoryProfile {
-
 	/**
 	 * Numer ewidencyjny
 	 */

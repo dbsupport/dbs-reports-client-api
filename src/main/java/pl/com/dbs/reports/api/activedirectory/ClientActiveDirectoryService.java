@@ -20,4 +20,9 @@ public interface ClientActiveDirectoryService {
 	 * Get AD profiles by filter.
 	 */
 	List<ClientActiveDirectoryProfile> find(final ClientActiveDirectoryProfileFilter filter) throws DataAccessException;
+
+	/**
+	 * Update profiles.
+	 */
+	void update(final ClientActiveDirectoryProfileUpdateContext context) throws DataAccessException;
 }
