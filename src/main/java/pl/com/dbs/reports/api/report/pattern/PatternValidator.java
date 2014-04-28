@@ -3,7 +3,6 @@
  */
 package pl.com.dbs.reports.api.report.pattern;
 
-import org.springframework.core.Ordered;
 
 
 /**
@@ -12,8 +11,8 @@ import org.springframework.core.Ordered;
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
  * @coptyright (c) 2013
  */
-public abstract class PatternValidator implements Ordered {
+public interface PatternValidator {
 	
-	public abstract void validate(Pattern pattern) throws PatternValidationException;
+	void validate(Pattern pattern) throws PatternValidationException;
 	
 }
