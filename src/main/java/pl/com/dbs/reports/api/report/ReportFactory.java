@@ -5,6 +5,8 @@ package pl.com.dbs.reports.api.report;
 
 
 /**
+ * Report generation factory interface.
+ * 
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
  * @coptyright (c) 2013
  */
@@ -17,5 +19,5 @@ public interface ReportFactory {
 	/**
 	 * 
 	 */
-	byte[] produce(ReportProduceContext context);
+	ReportProduceResult produce(ReportProduceContext context);
 }
