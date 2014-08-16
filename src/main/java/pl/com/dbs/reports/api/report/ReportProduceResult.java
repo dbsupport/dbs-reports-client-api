@@ -12,6 +12,7 @@ import java.util.List;
  * @coptyright (c) 2013
  */
 public interface ReportProduceResult {
+	ReportProduceStatus getStatus();
 	byte[] getContent();
 	List<ReportLog> getLogs();
 }

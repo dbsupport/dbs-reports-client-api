@@ -7,9 +7,10 @@ import java.util.Date;
 import java.util.Map;
 
 import pl.com.dbs.reports.api.report.pattern.Pattern;
+import pl.com.dbs.reports.api.report.pattern.PatternFormat;
 
 /**
- * TODO
+ * Report interface
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
  * @coptyright (c) 2013
@@ -40,7 +41,7 @@ public interface Report {
 	/**
 	 * 
 	 */
-	ReportType getFormat();
+	PatternFormat getFormat();
 	
 	/**
 	 * Report's data itself.

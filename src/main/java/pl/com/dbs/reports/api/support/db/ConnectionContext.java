@@ -36,4 +36,6 @@ public interface ConnectionContext {
 	 * oracle.jdbc.driver.OracleDriver
 	 */
 	String getDriver();
+	
+	Integer getMaxActive();
 }
