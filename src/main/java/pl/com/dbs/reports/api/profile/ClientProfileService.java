@@ -5,8 +5,6 @@ package pl.com.dbs.reports.api.profile;
 
 import java.util.List;
 
-import org.springframework.dao.DataAccessException;
-
 /**
  * CLIENT side service to receive information about CLIENT profiles (if provided).
  *
@@ -17,5 +15,5 @@ public interface ClientProfileService {
 	/**
 	 * Ge users from CLIENT db.
 	 */
-	List<ClientProfile> find(ClientProfileFilter filter) throws DataAccessException;
+	List<ClientProfile> find(ClientProfileFilter filter);
 }

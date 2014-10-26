@@ -5,8 +5,6 @@ package pl.com.dbs.reports.api.activedirectory;
 
 import java.util.List;
 
-import org.springframework.dao.DataAccessException;
-
 
 /**
  * CLIENT side AD service.
@@ -19,10 +17,10 @@ public interface ClientActiveDirectoryService {
 	/**
 	 * Get AD profiles by filter.
 	 */
-	List<ClientActiveDirectoryProfile> find(final ClientActiveDirectoryProfileFilter filter) throws DataAccessException;
+	List<ClientActiveDirectoryProfile> find(final ClientActiveDirectoryProfileFilter filter);
 
 	/**
 	 * Update profiles.
 	 */
-	void update(final ClientActiveDirectoryProfileUpdateContext context) throws DataAccessException;
+	void update(final ClientActiveDirectoryProfileUpdateContext context);
 }

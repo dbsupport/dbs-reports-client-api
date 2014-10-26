@@ -3,8 +3,6 @@ package pl.com.dbs.reports.api.support.db;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.dao.DataAccessException;
-
 
 /**
  * Executes CLIENT db queries.
@@ -13,9 +11,9 @@ import org.springframework.dao.DataAccessException;
  * @coptyright (c) 2013
  */
 public interface SqlExecutor<T> {
-	List<T> query(final SqlExecutorContext<T> context) throws DataAccessException;
+	List<T> query(final SqlExecutorContext<T> context);
 	
-	List<Map<String, Object>> query(final String sql, final Object[] params) throws DataAccessException;
+	List<Map<String, Object>> query(final String sql, final Object[] params);
 	
-	void update(final String sql, final Object[] params) throws DataAccessException;
+	void update(final String sql, final Object[] params);
 }

@@ -3,8 +3,6 @@
  */
 package pl.com.dbs.reports.api.security;
 
-import org.springframework.dao.DataAccessException;
-
 import pl.com.dbs.reports.api.profile.ClientProfile;
 
 
@@ -21,5 +19,5 @@ public interface SecurityService {
 	 * If user authenticated returns data.
 	 * Otherwise returns null or throws exceptions.
 	 */
-	ClientProfile authenticate(final SecurityContext context) throws SecurityAuthenticatinException, DataAccessException;
+	ClientProfile authenticate(final SecurityContext context) throws SecurityAuthenticatinException;
 }
