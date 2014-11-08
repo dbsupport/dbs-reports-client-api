@@ -9,7 +9,7 @@ import org.apache.commons.lang.Validate;
  * Pager class.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
- * @coptyright (c) 2014
+ * @copyright (c) 2014
  */
 public class ClientQueryPager {
 	public static final int NO_LIMIT = -1;

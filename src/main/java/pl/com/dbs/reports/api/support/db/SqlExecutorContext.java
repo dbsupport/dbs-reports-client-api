@@ -11,7 +11,7 @@ import org.springframework.jdbc.core.RowMapper;
  * Client DB context sql.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
- * @coptyright (c) 2014
+ * @copyright (c) 2014
  */
 public class SqlExecutorContext<T> {
 	private String sql;

@@ -8,7 +8,7 @@ package pl.com.dbs.reports.api.support.db;
  * Pola do sortowania.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
- * @coptyright (c) 2014
+ * @copyright (c) 2014
  */
 public class ClientSorterField {
 	private String name;

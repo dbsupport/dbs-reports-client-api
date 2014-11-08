@@ -10,7 +10,7 @@ import org.apache.commons.lang.Validate;
  * Do sortowania i filtrowania po stronie bazy klienckiej.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
- * @coptyright (c) 2014
+ * @copyright (c) 2014
  */
 public abstract class ClientQueryFilter {
 	private ClientQueryPager	pager = new ClientQueryPager();

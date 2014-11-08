@@ -10,7 +10,7 @@ import java.util.List;
  * CLIENT side AD service.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
- * @coptyright (c) 2014
+ * @copyright (c) 2014
  */
 public interface ClientActiveDirectoryService {
 

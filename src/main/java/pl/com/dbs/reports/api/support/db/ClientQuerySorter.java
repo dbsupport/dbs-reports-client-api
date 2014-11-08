@@ -12,7 +12,7 @@ import java.util.Map;
  * Obiekt sortowania.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
- * @coptyright (c) 2014
+ * @copyright (c) 2014
  */
 public class ClientQuerySorter {
 	private List<ClientSorterField> fields = new ArrayList<ClientSorterField>();

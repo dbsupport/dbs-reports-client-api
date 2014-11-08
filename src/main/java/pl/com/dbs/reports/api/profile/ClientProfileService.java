@@ -9,7 +9,7 @@ import java.util.List;
  * CLIENT side service to receive information about CLIENT profiles (if provided).
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
- * @coptyright (c) 2013
+ * @copyright (c) 2013
  */
 public interface ClientProfileService {
 	/**

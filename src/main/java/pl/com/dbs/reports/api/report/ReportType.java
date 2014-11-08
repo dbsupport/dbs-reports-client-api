@@ -11,7 +11,7 @@ import org.apache.commons.lang.StringUtils;
  * Extension is as default extension coz file can have any extension.
  *
  * @author Krzysztof Kaziura | krzysztof.kaziura@gmail.com | http://www.lazydevelopers.pl
- * @coptyright (c) 2013
+ * @copyright (c) 2013
  */
 public enum ReportType {
 	TXT("txt");
