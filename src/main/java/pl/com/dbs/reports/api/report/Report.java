@@ -4,6 +4,7 @@
 package pl.com.dbs.reports.api.report;
 
 import java.util.Date;
+import java.util.List;
 import java.util.Map;
 
 import pl.com.dbs.reports.api.report.pattern.Pattern;
@@ -26,7 +27,7 @@ public interface Report {
 	/**
 	 * Report parameters used by user.
 	 */
-	Map<String, String> getParameters();
+	List<? extends ReportParameter> getParameters();
 	
 	/**
 	 * Generated report name.
